@@ -1,4 +1,4 @@
-class ParksController < ApplicationController
+class Api::V1::ParksController < ApplicationController
   include Response
 
   def index

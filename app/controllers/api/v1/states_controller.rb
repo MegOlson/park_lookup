@@ -1,4 +1,4 @@
-class StatesController < ApplicationController
+class Api::V1::StatesController < ApplicationController
   include Response
 
   def index
