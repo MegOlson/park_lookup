@@ -5,11 +5,15 @@ class Api::V1::ParksController < ApplicationController
     @parks = Park.all
     state = params[:state_id]
     name = params[:name]
+    random = params[:random]
     if state
       @parks = Park.parks(state)
     end
     if name
-      @parks = Park.by_name(name)
+      @parks = Park.search_by_name(name)
+    end
+    if random
+      @parks = Park.get_random_park
     end
     json_response(@parks)
   end
