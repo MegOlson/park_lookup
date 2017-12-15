@@ -39,39 +39,39 @@ To see endpoint results sign in or create an account with Postman.
 In the URI line put the following URIs:
 
 * To get one page of states:
-  `GET 'http://localhost:3000/api/v1/states'`
+  `GET 'http://localhost:3001/api/v1/states'`
   * to get other pages add `?page={page number}` to the end of the URI
 * To get a singular state:
-  `GET 'http://localhost:3000/api/v1/states/{state_id}'`
+  `GET 'http://localhost:3001/api/v1/states/{state_id}'`
 * To get state by specific name: (case sensitive)
-  `GET 'http://localhost:3000/api/v1/states/'`
+  `GET 'http://localhost:3001/api/v1/states/'`
   Params key: name -- value: string
 * To get a state's parks:
-  `GET 'http://localhost:3000/api/v1/states/{state_id}/parks'`
+  `GET 'http://localhost:3001/api/v1/states/{state_id}/parks'`
 * To get a state's park by a specific name: (case sensitive & must input full name, not part of name)
-  `GET 'http://localhost:3000/api/v1/states/{state_id}/parks'`
+  `GET 'http://localhost:3001/api/v1/states/{state_id}/parks'`
   Params key: name -- value: string
 * To get a random park from a specific state:
-  `GET 'http://localhost:3000/api/v1/states/{state_id}/parks'`
+  `GET 'http://localhost:3001/api/v1/states/{state_id}/parks'`
   Params key: random -- value: true
 * To add a state:
-  `POST 'http://localhost:3000/api/v1/states/`
+  `POST 'http://localhost:3001/api/v1/states/`
   Params key: name -- value: string
 * To add a state's park:
-  `POST 'http://localhost:3000/api/v1/states/{state_id}/parks`
+  `POST 'http://localhost:3001/api/v1/states/{state_id}/parks`
   Params key: name -- value: string
 * To update a state:
-  `PUT 'http://localhost:3000/api/v1/states/{state_id}`
+  `PUT 'http://localhost:3001/api/v1/states/{state_id}`
   (add the key param of what you wish to change)
   Params key: name -- value: string
 * To update a state's park:
-  `PUT 'http://localhost:3000/api/v1/states/{state_id}/parks`
+  `PUT 'http://localhost:3001/api/v1/states/{state_id}/parks`
   (add the key param of what you wish to change)
   Params key: name -- value: string
 * To delete a state:
-  `DELETE 'http://localhost:3000/api/v1/states/{state_id}`
+  `DELETE 'http://localhost:3001/api/v1/states/{state_id}`
 * To delete a state's park:
-  `DELETE 'http://localhost:3000/api/v1/states/{state_id}/parks/{park_id}`
+  `DELETE 'http://localhost:3001/api/v1/states/{state_id}/parks/{park_id}`
 
 ## Known Bugs
 
