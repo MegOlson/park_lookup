@@ -88,6 +88,14 @@ No known bugs.
 * Versioning
 * Basic Authentication
 
+## Support and Contact Details
+
+Feel free to contact Megan at meganannetteolson@yahoo.com
+
+## Contributors
+
+<img src="https://avatars.githubusercontent.com/MegOlson?s=100" width="100" alt="megan annette olson" /><br />[<sub>megan annette olson</sub>](https://github.com/MegOlson)<br />[💻](https://github.com/MegOlson/park_lookup/commits?author=MegOlson) [⚠️](https://github.com/MegOlson/park_lookup/commits?author=MegOlson)
+
 ### License
 
 Copyright (c) 2017 **Megan Olson**
