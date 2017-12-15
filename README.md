@@ -77,10 +77,16 @@ In the URI line put the following URIs:
 
 No known bugs.
 
-##Technologies Used
+## Technologies Used
 
 * Ruby/Rails
 * ActiveRecord
+
+## Features
+
+* Pagination
+* Versioning
+* Basic Authentication
 
 ### License
 
