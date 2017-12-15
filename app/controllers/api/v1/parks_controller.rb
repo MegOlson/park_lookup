@@ -29,18 +29,9 @@ class Api::V1::ParksController < ApplicationController
    def update
      @state = State.find(params[:state_id])
      @park = @state.parks.find(params[:id])
-     user_name = @park.author
-     # This should correlate with current user of app
-     author = params[:author]
-     if author == user_name
-       if @park.update!(park_params)
-         render status: 200, json: {
-           message: "Your park has been updated successfully!"
-         }
-       end
-     else
-       render status: 404, json: {
-         message: "You are not authorized to do this."
+     if @park.update!(park_params)
+       render status: 200, json: {
+         message: "Your park has been updated successfully!"
        }
      end
    end
