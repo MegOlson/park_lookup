@@ -23,7 +23,7 @@ To gain access to anything more than a simple GET request, username and password
 
 * Download Postman on your computer.
 * Follow the Setup/Installation steps above and insert the first GET request listed in the endpoints section below.
-* Click on the 'Authorization' section before processing the request and insert the username and password.
+* Click on the 'Authorization' section before processing the request and insert the username and password. (email me at 'meganannetteolson@yahoo.com' to gain username and password)
 * Process your request and reference your 'headers' section for your newly produced API Key.
 
 #### Adding API Key to Project
